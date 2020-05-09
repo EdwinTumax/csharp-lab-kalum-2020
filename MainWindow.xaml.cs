@@ -14,13 +14,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Kalum2020v1.ModelViews;
 using Kalum2020v1.Views;
+using MahApps.Metro.Controls;
 
 namespace Kalum2020v1
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         private MainViewModel model;
         public MainWindow()

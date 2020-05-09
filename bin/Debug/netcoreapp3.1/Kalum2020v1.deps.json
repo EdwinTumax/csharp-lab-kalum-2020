@@ -8,12 +8,36 @@
     ".NETCoreApp,Version=v3.1": {
       "Kalum2020v1/1.0.0": {
         "dependencies": {
+          "MahApps.Metro": "2.0.0-alpha0775",
           "Microsoft.EntityFrameworkCore.Design": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.Extensions.Configuration.Json": "3.1.3"
         },
         "runtime": {
           "Kalum2020v1.dll": {}
+        }
+      },
+      "ControlzEx/4.3.0-alpha0085": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19",
+          "System.Text.Json": "4.7.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.3.0.85"
+          }
+        }
+      },
+      "MahApps.Metro/2.0.0-alpha0775": {
+        "dependencies": {
+          "ControlzEx": "4.3.0-alpha0085"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.775"
+          }
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
@@ -326,6 +350,14 @@
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.19.35512"
+          }
         }
       },
       "runtime.native.System/4.3.0": {
@@ -781,6 +813,14 @@
           "System.Text.Encoding": "4.3.0"
         }
       },
+      "System.Text.Json/4.7.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.700.20.6702"
+          }
+        }
+      },
       "System.Text.RegularExpressions/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -883,6 +923,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ControlzEx/4.3.0-alpha0085": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y9jdG0sS0cRq/5IlvJZF3HnG1vfkQOYvI2hdtKfY+eimT6nNDxdNrVkw75IISAOjBhbCjaRjA9zj4FCx7Ec70A==",
+      "path": "controlzex/4.3.0-alpha0085",
+      "hashPath": "controlzex.4.3.0-alpha0085.nupkg.sha512"
+    },
+    "MahApps.Metro/2.0.0-alpha0775": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z9DONaLT46rR+L8ibrdT4qOmz1KC+aaabrM4zvgipDEEBCZ6okKVZn/LTPziRyhsXkUgEdewZM2N/p3WbaQ+wQ==",
+      "path": "mahapps.metro/2.0.0-alpha0775",
+      "hashPath": "mahapps.metro.2.0.0-alpha0775.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "type": "package",
@@ -1093,6 +1147,13 @@
       "sha512": "sha512-LKmf0FiggwZBhNoz0S9ypcQ0EhUdQmwwniKEpd9LcisvJtxyYWq2RSok7YFpODm3VoYdR+6ifWDX23/2dJq2ZA==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.19",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
@@ -1471,6 +1532,13 @@
       "sha512": "sha512-YVMK0Bt/A43RmwizJoZ22ei2nmrhobgeiYwFzC4YAN+nue8RF6djXDMog0UCn+brerQoYVyaS+ghy9P/MUVcmw==",
       "path": "system.text.encoding.extensions/4.3.0",
       "hashPath": "system.text.encoding.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XwzMbct3iNepJaFylN1+l8weWlFburEzXidqleSsLvSXdHSIJHEKtRVKHPlpWcFmJX6k3goPFfVgUfp40RR+bg==",
+      "path": "system.text.json/4.7.1",
+      "hashPath": "system.text.json.4.7.1.nupkg.sha512"
     },
     "System.Text.RegularExpressions/4.3.0": {
       "type": "package",

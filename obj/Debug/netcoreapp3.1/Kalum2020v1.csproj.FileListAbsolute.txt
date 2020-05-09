@@ -51,3 +51,8 @@ C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\obj\Debug\netcore
 C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\obj\Debug\netcoreapp3.1\Kalum2020v1.pdb
 C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\obj\Debug\netcoreapp3.1\Views\AlumnoView.g.cs
 C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\obj\Debug\netcoreapp3.1\Views\AlumnoView.baml
+C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\bin\Debug\netcoreapp3.1\ControlzEx.dll
+C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\bin\Debug\netcoreapp3.1\MahApps.Metro.dll
+C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Developer\Documents\2020\net\laboratorios\Kalum2020v1\obj\Debug\netcoreapp3.1\App.baml
